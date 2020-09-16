@@ -11,8 +11,8 @@
      @TAG(DATA61_BSD)
 -->
 <manifest>
-    <remote name="seL4" fetch="../seL4"/>
     <remote name="sel4proj" fetch="../sel4proj"/>
+    <remote name="seL4" fetch="../seL4"/>
     <!-- default revision for each project, and name of the remote -->
     <default revision="master" remote="seL4"/>
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
